@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jax.drcorn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/corn_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jax.drcorn.PastRecordDetails"
+            android:exported="true"
+            android:parentActivityName="com.jax.drcorn.PastRecords"
+            android:label="@string/title_activity_past_record_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jax.drcorn.DiseaseDetails"
+            android:exported="true"
+            android:parentActivityName="com.jax.drcorn.MaizeDiseases" />
+        <activity
+            android:name="com.jax.drcorn.DisplayDisease"
+            android:exported="true"
+            android:label="@string/title_activity_display_disease"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jax.drcorn.MaizeDiseases"
+            android:exported="true" />
+        <activity
+            android:name="com.jax.drcorn.PastRecords"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jax.drcorn.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE " />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

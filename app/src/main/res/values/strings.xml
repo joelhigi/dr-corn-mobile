@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Doctor Corn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="profile_desc">Rowan Sebastian Atkinson CBE is an English actor,  comedian and screenwriter</string>
+    <string name="profile_title">Mr Bean</string>
+    <string name="posts">posts</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="msg_error_unable_select_profile_pic">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+
+    <string name="title_activity_display_disease">Results</string>
+    <string name="disease_result_title_blight">Blight</string>
+    <string name="disease_result_title_common_rust">Common Rust</string>
+    <string name="disease_result_title_gls">Grey Leaf Spot</string>
+    <string name="disease_result_title_healthy">Healthy</string>
+
+    <string name="blight_text">
+        "<b><u>Diagnosis:</u></b>\n\n"
+        "This leaf is likely diseased with: <b>Southern Corn Leaf Blight</b>\n\n"
+        "<b><u>Causes and symptoms</u></b>\n\n"
+        "Southern corn leaf blight is caused by the fungus Bipolaris maydis. There are two races of the pathogen. Race O normally attacks only leaves. Lesions are tan, somewhat rectangular in shape, and have reddish-brown margins. Race T attacks leaves, husks, stalks, leaf sheaths, shanks, ears, and cobs. Race T lesions are rectangular to elliptical (¼ to ½ inch wide by ¼ to ¾ inch long) with a reddish-brown border that may be surrounded by a chlorotic zone. Stalk and leaf infections initially appear as purple spots that develop tan-gray centers. Ear infections result in a gray-black lesion on the husk that extends into the kernels, appearing as a black felt-like mold. Seedlings from infected kernels are often blighted.\n\n\n"
+
+        "<b><u>Remedies</u></b>\n\n"
+        "<b>Hybrid selection</b>: Choosing corn hybrids with genetic disease resistance offers the best economical and effective defense against southern corn leaf blight and other diseases.\n"
+        "<b>Scouting</b>: Early and frequent scouting for diseases is a routine best management practice to manage pest problems before they lead to economic damage.\n"
+        "<b>Cultural practices</b>: Crop rotation remains a solid tactic to help diminish disease threats. It is better to plant other non-cereal seeds after the maize harvest and plant again maize after two terms.\n"
+        "<b>Fungicides</b>: Foliar fungicides Leaf Blight of corn should be applied early in the growing season\n"
+
+
+    </string>
+    <string name="common_rust_text">
+        "<b><u>Diagnosis:</u></b>\n\n"
+        "This leaf is likely diseased with: <b>Common Rust</b>\n\n"
+        "<b><u>Causes and symptoms</u></b>\n\n"
+        "Common rust is caused by the fungus Puccinia sorghi and occurs every growing season. It is seldom a concern in hybrid corn. Early symptoms of common rust are chlorotic flecks on the leaf surface. These soon develop into powdery, brick-red pustules as the spores break through the leaf surface. Pustules are oval or elongated, about 1/8 inch long, and scattered sparsely or clustered together. The leaf tissue around the pustules may become yellow or die, leaving lesions of dead tissue. The lesions sometimes form a band across the leaf and entire leaves will die if severely infected. As the pustules age, the red spores turn black, so the pustules appear black, and continue to erupt through the leaf surface. Husks, leaf sheaths, and stalks also may be infected.\n\n\n"
+
+        "<b><u>Common rust disease cycle</u></b>\n\n"
+        "The fungus survives the winter as spores in subtropical and tropical regions; spores are carried long distances by wind and eventually reach the Midwest. Rust development is favored by high humidity with night temperatures of 65-70°F and moderate daytime temperatures. The disease is usually more severe on seed corn.\n\n\n"
+
+        "<b><u>Remedies</u></b>\n\n"
+        "<b>Hybrid selection</b>: Choosing corn hybrids with genetic disease resistance offers the best economical and effective defense against southern corn leaf blight and other diseases.\n"
+        "<b>Scouting</b>: Early and frequent scouting for diseases is a routine best management practice to manage pest problems before they lead to economic damage.\n"
+        "<b>Cultural practices</b>: Crop rotation remains a solid tactic to help diminish disease threats. It is better to plant other non-cereal seeds after the maize harvest and plant again maize after two terms.\n"
+        "<b>Fungicides</b>: Foliar fungicides Common rust of corn of corn should be applied early in the growing season\n"
+    </string>
+    <string name="gls_text">
+        "<b><u>Diagnosis:</u></b>\n\n"
+        "This leaf is likely diseased with: <b>Gray Leaf Spot</b>\n\n"
+        "<b><u>Causes and symptoms</u></b>\n\n"
+        "Gray leaf spot, caused by the fungus Cercospora zeae-maydis, occurs virtually every growing season. If conditions favor disease development, economic losses can occur. Symptoms first appear on lower leaves about two to three weeks before tasseling. The leaf lesions are long (up to 2 inches), narrow, rectangular, and light tan colored. Later, the lesions can turn gray. They are usually delimited by leaf veins but can join together and kill entire leaves.\n\n\n"
+
+        "<b><u>Gray leaf spot disease cycle</u></b>\n\n"
+        "The fungus survives in corn residue, and, consequently, the disease is often more severe in corn following corn. Spores are dispersed by wind and splashing water. Infection of corn leaves and disease development are favored by warm (80s°F), humid (>90% for 12+ hours) weather. Disease severity depends on hybrid susceptibility and environmental conditions.\n\n\n"
+
+        "<b><u>Remedies</u></b>\n\n"
+        "<b>Hybrid selection</b>: Choosing corn hybrids with genetic disease resistance offers the best economical and effective defense against southern corn leaf blight and other diseases.\n"
+        "<b>Scouting</b>: Early and frequent scouting for diseases is a routine best management practice to manage pest problems before they lead to economic damage.\n"
+        "<b>Cultural practices</b>: Crop rotation remains a solid tactic to help diminish disease threats. It is better to plant other non-cereal seeds after the maize harvest and plant again maize after two terms.\n"
+        "<b>Fungicides</b>: Foliar fungicides Gray leaf spot of corn should be applied early in the growing season.\n"
+    </string>
+    <string name="healthy_text">
+        "<b><u>Diagnosis:</u></b>\n\n"
+        "This leaf has been found to be <b>Healthy</b>\n\n"
+        "<b><u>Best Health Maintenance Techniques</u></b>\n"
+
+        "<b>Minimal tillage</b>: You should never use a plow, so no draft power is needed to prepare your fields. Instead of compacting or disrupting the soil’s natural structure, you make precise planting holes in a consistent pattern throughout the field.\n"
+        "<b>Mulching</b> to retain the soil’s moisture and to protect the soil from erosion. You should never burn vegetation covering the soil. Similarly, avoid leaving the soil bare, because moisture will be lost and erosion is more likely to occur.  Instead, graze, cut, or slash the plants and previous stover, allowing it to spread more evenly above the soil.\n"
+        "<b>Precise, high-quality plant spacing</b>: Plan out your field and measure where each planting hole will be for the best overall distribution.\n"
+        "<b>Precise distribution of fertilizer and seed</b>: Broadcasting seed and fertilizer on to the soil can be wasteful, and often results in poor soil-seed contact, lost fertility and ultimately lower yields.\n"
+        "Planting immediately after the <b>first measurable rainfall</b> of the applicable growing season to ensure even germination and make the most of the rainwater.\n"
+        "<b>Thinning out/removal</b> of weaker germinated plants, maximizing yield.\n"
+        "<b>Maintain disciplined, regular weed control</b>. Weeds steal the moisture that your crops need.\n"
+
+    </string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="title_activity_past_record_details">PastRecordDetails</string>
+
+    <string-array name="diseases">
+        <item>Blight</item>
+        <item>Common Rust</item>
+        <item>Gray Leaf Spot</item>
+    </string-array>
+
+    <string-array name="shortdesc">
+        <item>Canoe-shaped lesions</item>
+        <item>Rust-colored, elongated pustules</item>
+        <item>Gray rectangular lesions</item>
+    </string-array>
+
+
+
+    <string name="blight_det">Corn leaf blight is caused by the fungus Bipolaris maydis. There are two races of the pathogen. Race O normally attacks only leaves. Lesions are tan, somewhat rectangular in shape, and have reddish-brown margins. Race T attacks leaves, husks, stalks, leaf sheaths, shanks, ears, and cobs. Race T lesions are rectangular to elliptical (¼ to ½ inch wide by ¼ to ¾ inch long) with a reddish-brown border that may be surrounded by a chlorotic zone. Stalk and leaf infections initially appear as purple spots that develop tan-gray centers. Ear infections result in a gray-black lesion on the husk that extends into the kernels, appearing as a black felt-like mold. Seedlings from infected kernels are often blighted. Showing results for how to treat corn blight. </string>
+    <string name="rust_det">Common rust is caused by the fungus Puccinia sorghi and occurs every growing season. It is seldom a concern in hybrid corn. Rust pustules usually first appear in late June. Early symptoms of common rust are chlorotic flecks on the leaf surface. These soon develop into powdery, brick-red pustules as the spores break through the leaf surface. Pustules are oval or elongated, about 1/8 inch long, and scattered sparsely or clustered together. The leaf tissue around the pustules may become yellow or die, leaving lesions of dead tissue. The lesions sometimes form a band across the leaf and entire leaves will die if severely infected.As the pustules age, the red spores turn black, so the pustules appear black, and continue to erupt through the leaf surface. Husks, leaf sheaths, and stalks also may be infected.</string>
+    <string name="gls_det">Gray leaf spot is typically the most serious foliar disease of corn in the U.S. corn belt, although other diseases can be more important in areas and years where weather conditions do not favor gray leaf spot. Gray leaf spot requires extended periods of high humidity and warm conditions. It can be confused with other foliar diseases of corn. The disease first appears in the form of small, necrotic spots with halos. These usually expand to become rectangular lesions, about 1/8 inch wide by up to 2 inches to 3 inches long and gray to brown in appearance. Mature lesions usually have distinct parallel edges and appear opaque when put up to the light, but the lesions hybrids vary widely in shape and color. Symptoms can sometimes be confused with northern corn leaf spot, although gray leaf spot lesions are usually limited on the sides by veins.</string>
+
+    <string name="blight_treat">Treating corn leaf blight involves using fungicides.</string>
+    <string name="rust_treat">Treating common corn rust involves using fungicides.</string>
+    <string name="gls_treat">Foliar fungicides can be effective if economically warranted.</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/disLayout">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:cardBackgroundColor="#F4EA93"
+        app:cardCornerRadius="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="397dp"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/imageViewStatus"
+                android:layout_width="58dp"
+                android:layout_height="54dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/healt" />
+
+            <TextView
+                android:id="@+id/disease_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/baloo"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/imageViewStatus"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/pred_value_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/imageViewStatus"
+                app:layout_constraintTop_toBottomOf="@+id/disease_name_text" />
+
+            <TextView
+                android:id="@+id/record_id_text"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="176dp" />
+
+            <TextView
+                android:id="@+id/disease_date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/baloo"
+                android:text="TextView"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.796" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
